@@ -8,13 +8,17 @@ function App() {
     let numberInText=parseInt(text)
     if(numberInText%2==0)
     {
-      setNumber(number + parseInt(text))
+      setNumber(number + numberInText)
     }
    
   }
   function tru(event) {
-    
-    setNumber(number - parseInt(text))
+    let numberInText=parseInt(text)
+    if(numberInText%2!=0)
+    {
+      setNumber(number - parseInt(text))
+    }
+   
   }
   function nhan(event) {
   
