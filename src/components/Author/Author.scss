@@ -1,0 +1,13 @@
+.author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    p {
+        font-family: 'Baloo 2', 'sans-serif';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+    }
+}

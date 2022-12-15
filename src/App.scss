@@ -1,0 +1,95 @@
+.App {
+  width: 100%;
+  display: grid;
+  gap: 100px;
+
+  header {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+    img {
+      width: calc(100% + 100px);
+      object-fit: contain;
+      position: relative;
+      top: -50px;
+      left: -50px;
+    }
+
+    h1 {
+      width: 100%;
+      text-align: center;
+      font-family: 'Baloo 2', 'sans-serif';
+      font-weight: 600;
+      font-size: 100px;
+      color: #FFFFFF;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  &>article {
+    font-family: 'Baloo Bhai 2', 'sans-serif';
+    padding: 0 150px;
+
+    display: grid;
+    gap: 80px;
+
+    &>h2 {
+      font-weight: 800;
+      font-size: 40px;
+      text-align: center;
+      color: #073580;
+    }
+
+    &>h3 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+    }
+
+    &>.bold {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 25px;
+      line-height: 52px;
+
+      color: #000000;
+    }
+
+    &>p {
+      font-family: 'Baloo 2';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 40px;
+    }
+
+    &>.secondary {
+      padding-left: 80px;
+    }
+
+    &>.author-group {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 100px;
+    }
+  }
+
+  footer {
+    padding: 60px 85px;
+    background-color: #073580;
+
+    p {
+      font-family: 'Baloo 2';
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 51px;
+
+      color: #FFFFFF;
+    }
+  }
+}
