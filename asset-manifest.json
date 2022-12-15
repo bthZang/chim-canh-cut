@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/chim-canh-cut/static/css/main.be861dae.css",
+    "main.js": "/chim-canh-cut/static/js/main.a8742473.js",
+    "static/media/hero-image.png": "/chim-canh-cut/static/media/hero-image.4ad0176aee14612d0ec9.png",
+    "static/media/zang.png": "/chim-canh-cut/static/media/zang.4ffb155dbc494626819a.png",
+    "static/media/zphy.png": "/chim-canh-cut/static/media/zphy.0906ff3a9bf2508a99c1.png",
+    "static/media/zi.png": "/chim-canh-cut/static/media/zi.a36c57dcf60af29479aa.png",
+    "static/media/znguyet.png": "/chim-canh-cut/static/media/znguyet.5b4b6dfd5d94d123b0b2.png",
+    "index.html": "/chim-canh-cut/index.html",
+    "main.be861dae.css.map": "/chim-canh-cut/static/css/main.be861dae.css.map",
+    "main.a8742473.js.map": "/chim-canh-cut/static/js/main.a8742473.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be861dae.css",
+    "static/js/main.a8742473.js"
+  ]
+}
